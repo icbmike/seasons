@@ -5,14 +5,16 @@ public class InputBehaviour : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		GetComponent<PlayerState>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+	void FixedUpdate(){
 		var jumpButton = Input.GetButton ("Jump");
 
-		if(jumpButton)
-			rigidbody2D.AddForce(Vector2.up * 10);
+	}
+
+	// Update is called once per frame
+	void Update () {
+
 	}
 }
