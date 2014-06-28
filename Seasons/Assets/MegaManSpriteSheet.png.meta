@@ -1,0 +1,1606 @@
+fileFormatVersion: 2
+guid: f9ef0f58b03577945a3ba9f4b1fd4e90
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: MegaManSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1664
+        width: 5
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1660
+        width: 7
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1664
+        width: 10
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1662
+        width: 11
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1665
+        width: 10
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1665
+        width: 14
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1665
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1669
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1672
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1672
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1614
+        width: 113
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1614
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1612
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1612
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1552
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1552
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1552
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1552
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1552
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1552
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1552
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1552
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1493
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1493
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1493
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1493
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1493
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1493
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1493
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1438
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1438
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1438
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1438
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1392
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1392
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1392
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1392
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1392
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1392
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1346
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1346
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1346
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1346
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1346
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1296
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1296
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1296
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1296
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1296
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1252
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1252
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1252
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1252
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1202
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1202
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1202
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1149
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1149
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1149
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1149
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1149
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1149
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1087
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1087
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1087
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1087
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1087
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1027
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1027
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1027
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1027
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1027
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1027
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1027
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1027
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 977
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 977
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 975
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 977
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 925
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 925
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 925
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 925
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 925
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 874
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 874
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 874
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 826
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 826
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 826
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 826
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 762
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 762
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 762
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 762
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 762
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 762
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 698
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 698
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 698
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 698
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 698
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 698
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 643
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 643
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 643
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 643
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 643
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 643
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 583
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 583
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 583
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 528
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 528
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 528
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 528
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 528
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 528
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 475
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 475
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 475
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 416
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 459
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 464
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 464
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 416
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 437
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 446
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 361
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 416
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 427
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 361
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 361
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 361
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 361
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 318
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 318
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 318
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 267
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 267
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 267
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 267
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 267
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 223
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 223
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 223
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 223
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 223
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 171
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 171
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 171
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 171
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 171
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 171
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 118
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 118
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 118
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 118
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 61
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 61
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 61
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 47
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 35
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 28
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaManSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
