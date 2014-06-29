@@ -13,17 +13,22 @@ namespace Assets
         }
 
         void FixedUpdate(){
+			Debug.Log ("Input - FixedUpdate");
+
             //Jumping
             var shouldJump = Input.GetButton("Jump");
 
-            if (shouldJump)
-                _playerBehaviour.Jump();
-
+            if (shouldJump) {
+				_playerBehaviour.Jump ();
+				Debug.Log("Input - Jump");
+			}
             //Movement
             var movement = Input.GetAxis("horizontal");
 
-            if(Math.Abs(movement) > 0)
-                _playerBehaviour.Move(movement);
+			if (Math.Abs (movement) > 0) {
+				_playerBehaviour.Move (movement);
+				Debug.Log("Input - movement - " + movement);
+			}
         }
     }
 }
