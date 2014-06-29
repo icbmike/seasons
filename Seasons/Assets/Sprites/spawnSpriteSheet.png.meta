@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 97a3738943148ef4aa0b4f220b44d9f4
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: spawnSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 171
+        width: 2
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 172
+        width: 8
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 180
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 179
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 121
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 120
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 119
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 59
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 59
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 59
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 59
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 59
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 59
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 59
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 59
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 168
+        width: 4
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 171
+        width: 8
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 170
+        width: 8
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 172
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 173
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 176
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: spawnSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 122
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

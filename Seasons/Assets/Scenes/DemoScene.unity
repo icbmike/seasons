@@ -83,10 +83,12 @@ GameObject:
   m_Component:
   - 4: {fileID: 173858565}
   - 50: {fileID: 173858564}
-  - 61: {fileID: 173858563}
   - 212: {fileID: 173858562}
   - 114: {fileID: 173858561}
   - 114: {fileID: 173858566}
+  - 95: {fileID: 173858567}
+  - 58: {fileID: 173858568}
+  - 61: {fileID: 173858563}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -123,8 +125,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
+  m_SortingLayerID: 0
   m_Sprite: {fileID: 21300106, guid: f9ef0f58b03577945a3ba9f4b1fd4e90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &173858563
@@ -136,8 +139,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .430000007, y: .430000007}
-  m_Center: {x: 0, y: 0}
+  m_Size: {x: .25, y: .25}
+  m_Center: {x: -.00999999978, y: .0599999987}
 --- !u!50 &173858564
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -160,11 +163,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 173858560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0394258052, y: 1.10392237, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.97886181, y: -.997869492, z: 0}
+  m_LocalScale: {x: 1.35824966, y: 1.35825109, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
 --- !u!114 &173858566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +180,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JumpHeight: 300
   MaxMovementVelocity: 5
+--- !u!95 &173858567
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 173858560}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 99e075851caf6f24680af78025497160, type: 2}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 0
+  m_AnimatePhysics: 1
+  m_HasTransformHierarchy: 1
+--- !u!58 &173858568
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 173858560}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .0900000036
+  m_Center: {x: -.0599999987, y: -.0949999988}
 --- !u!1 &229732787
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,8 +267,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
+  m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 0c97c90e6c85dff419b980c44e45d747, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &229732791
@@ -255,7 +283,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
 --- !u!1 &1354704971
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,18 +343,15 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3.4345572
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
 --- !u!4 &1354704976
 Transform:
   m_ObjectHideFlags: 0
@@ -335,11 +359,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1354704971}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0788502693, y: 0, z: -10}
+  m_LocalPosition: {x: 3.01082444, y: 1.81070709, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
 --- !u!1 &1478596128
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,7 +392,6 @@ Transform:
   m_LocalScale: {x: 1.76045942, y: 1.76045716, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
 --- !u!61 &1478596130
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -414,7 +436,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
+  m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 0c97c90e6c85dff419b980c44e45d747, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
