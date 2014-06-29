@@ -13,7 +13,6 @@ namespace Assets
         }
 
         void FixedUpdate(){
-			Debug.Log ("Input - FixedUpdate");
 
             //Jumping
             var shouldJump = Input.GetButton("Jump");
@@ -27,7 +26,6 @@ namespace Assets
 
 			if (Math.Abs (movement) > 0) {
 				_playerBehaviour.Move (movement);
-				Debug.Log("Input - movement - " + movement);
 			}
         }
     }
