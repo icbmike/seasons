@@ -1,20 +1,29 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System;
+using UnityEngine;
 
-public class InputBehaviour : MonoBehaviour {
+namespace Assets
+{
+    public class InputBehaviour : MonoBehaviour {
+        private PlayerBehaviour _playerBehaviour;
 
-	// Use this for initialization
-	void Start () {
-		GetComponent<PlayerState>();
-	}
+        // Use this for initialization
+        void Start ()
+        {
+            _playerBehaviour = GetComponent<PlayerBehaviour>();
+        }
 
-	void FixedUpdate(){
-		var jumpButton = Input.GetButton ("Jump");
+        void FixedUpdate(){
+            //Jumping
+            var shouldJump = Input.GetButton("Jump");
 
-	}
+            if (shouldJump)
+                _playerBehaviour.Jump();
 
-	// Update is called once per frame
-	void Update () {
+            //Movement
+            var movement = Input.GetAxis("horizontal");
 
-	}
+            if(Math.Abs(movement) > 0)
+                _playerBehaviour.Move(movement);
+        }
+    }
 }
