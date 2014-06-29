@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
+using System;
 
 namespace Assets
 {
     public class PlayerBehaviour : MonoBehaviour {
         private PlayerState _state;
 
+		//Public properties
         public float JumpHeight;
+
+		public float MaxMovementVelocity;
 
         // Use this for initialization
         void Start ()
@@ -38,8 +42,13 @@ namespace Assets
 
         public void Move(float movement)
         {
+			//Cutoff to max movement speed
+			if (Math.Abs(rigidbody2D.velocity.x) < MaxMovementVelocity) {
 
-            rigidbody2D.AddForce(new Vector2(movement*10, 0));            
+            	rigidbody2D.AddForce(new Vector2(movement*10, 0));
+
+			}
+			Debug.Log ("Movement - " + rigidbody2D.velocity.x);
         }
 
         void OnCollisionEnter2D(Collision2D collision)
