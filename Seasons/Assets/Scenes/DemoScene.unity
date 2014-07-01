@@ -89,7 +89,7 @@ GameObject:
   - 95: {fileID: 173858567}
   - 58: {fileID: 173858568}
   - 61: {fileID: 173858563}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -163,9 +163,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 173858560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.97886181, y: -.997869492, z: 0}
+  m_LocalPosition: {x: -4.03653431, y: -.995629072, z: 0}
   m_LocalScale: {x: 1.35824966, y: 1.35825109, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1342595629}
   m_Father: {fileID: 0}
 --- !u!114 &173858566
 MonoBehaviour:
@@ -178,8 +179,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1514df0a29e02c84abdba1e7a5b39e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpHeight: 300
+  JumpHeight: 50
   MaxMovementVelocity: 5
+  GroundDetector: {fileID: 1342595629}
+  GroundDetectorLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967039
 --- !u!95 &173858567
 Animator:
   serializedVersion: 2
@@ -283,6 +288,32 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &1342595627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1342595629}
+  m_Layer: 0
+  m_Name: GroundDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 266726316, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1342595629
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342595627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0626799241, y: -.155050769, z: 0}
+  m_LocalScale: {x: .736241698, y: .736240923, z: 1}
+  m_Children: []
+  m_Father: {fileID: 173858565}
 --- !u!1 &1354704971
 GameObject:
   m_ObjectHideFlags: 0

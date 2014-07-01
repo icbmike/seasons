@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 using System;
 
 namespace Assets
@@ -13,8 +14,11 @@ namespace Assets
 
         private Animator _anim;
         private bool _facingRight;
+        private bool _isGrounded;
 
         private InputBehaviour _inputBehaviour;
+        public Transform GroundDetector;
+        public LayerMask GroundDetectorLayerMask;
 
         // Use this for initialization
         void Start ()
@@ -23,12 +27,22 @@ namespace Assets
             _inputBehaviour.enabled = false;
             _anim = GetComponent<Animator>();
             _facingRight = true;
+            _isGrounded = true;
         }
 
         void FixedUpdate()
         {
+            //Determine if grounded
+            _isGrounded = Physics2D.OverlapCircle(GroundDetector.position, 0.2f, GroundDetectorLayerMask.value);
+
+            Debug.Log("Pos " + GroundDetector.transform.position);
+
+            Debug.Log("Grounded" + _isGrounded);
+
             //Update animator
             _anim.SetFloat("horizSpeed", Math.Abs(rigidbody2D.velocity.x));
+            _anim.SetFloat("verticalSpeed", rigidbody2D.velocity.y);
+            _anim.SetBool("isGrounded", _isGrounded);
         }
 
         // Update is called once per frame
@@ -38,12 +52,17 @@ namespace Assets
 
         public void Jump()
         {
-           
+            if (_isGrounded)
+            {
+                rigidbody2D.AddForce(Vector2.up*JumpHeight);
+                _isGrounded = false;
+            }
         }
 
         public void EnableInput()
         {
             _inputBehaviour.enabled = true;
+            
         }
 
         public void Move(float movement)

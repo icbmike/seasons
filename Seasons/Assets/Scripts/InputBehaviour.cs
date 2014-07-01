@@ -21,6 +21,7 @@ namespace Assets
 				_playerBehaviour.Jump ();
 				Debug.Log("Input - Jump");
 			}
+
             //Movement
             var movement = Input.GetAxis("horizontal");
 
